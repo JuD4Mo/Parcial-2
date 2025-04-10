@@ -44,11 +44,11 @@ export const AddTransaction = () => {
             <h1>Cliente a actualizar: {currentClient ? currentClient.value?.name : "No client"}</h1>
            
             <button onClick={goBack} disabled={currentClient === null || currentClient?.prev === null}>
-                Back
+                Anterior cliente
             </button>
 
             <button onClick={goForward} disabled={currentClient === null || currentClient?.next === null}>
-                Forward
+                Siguiente cliente
             </button>
 
             <br />
